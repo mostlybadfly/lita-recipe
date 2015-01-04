@@ -1,6 +1,6 @@
 # lita-recipe
 
-TODO: A bot that will reply with a link to a random trending recipe on Food2Fork.
+A bot that will reply with a link to a random trending recipe on Food2Fork.
 
 ## Installation
 
@@ -16,7 +16,8 @@ gem "lita-recipe"
 An API Key from F2F will be required, more info at: http://food2fork.com/about/api
 ## Usage
 
-Once loaded, you can simply type "[botname] recipe"
+You: Lita recipe
+Lita: http://food2fork.com/view/bbec0d
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
