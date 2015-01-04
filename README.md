@@ -14,6 +14,13 @@ gem "lita-recipe"
 ## Configuration
 
 An API Key from F2F will be required, more info at: http://food2fork.com/about/api
+
+```ruby
+Lita.configure do |config|
+  config.handlers.recipe.api_key = ENV['F2F_KEY']
+end
+```
+
 ## Usage
 
 You: Lita recipe
