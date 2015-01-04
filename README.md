@@ -1,6 +1,6 @@
 # lita-recipe
 
-TODO: Add a description of the plugin.
+TODO: A bot that will reply with a link to a random trending recipe on Food2Fork.
 
 ## Installation
 
@@ -13,12 +13,10 @@ gem "lita-recipe"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
-
+An API Key from F2F will be required, more info at: http://food2fork.com/about/api
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
-
+Once loaded, you can simply type "[botname] recipe"
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
