@@ -22,9 +22,12 @@ end
 ```
 
 ## Usage
-
+```
 You: Lita recipe
+
 Lita: http://food2fork.com/view/bbec0d
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
