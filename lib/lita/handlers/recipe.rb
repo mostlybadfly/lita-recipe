@@ -1,7 +1,7 @@
 require 'lita'
 require 'net/http'
 require 'uri'
-require 'json'
+require 'multi_json'
 
 module Lita
   module Handlers
@@ -11,13 +11,13 @@ module Lita
 
       def recipe(response)
         res = Net::HTTP.get_response(URI("http://food2fork.com/api/search?key=#{api_key}&sort=t"))
-      top_list = JSON.load(res.body)
-      response.reply(top_list["recipes"].shuffle.first["f2f_url"])
+        top_list = MultiJson.load(res.body)
+        response.reply(top_list["recipes"].shuffle.first["f2f_url"])
       end
       private
 
       def api_key
-        Lita.config.handers.recipe.api_key
+        Lita.config.handlers.recipe.api_key
       end
  
       Lita.register_handler(Recipe)
