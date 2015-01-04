@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-recipe"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Daniel Nunez"]
   spec.email         = ["reachdanielnunez@gmail.com"]
   spec.description   = %q{A lita handler that will display a random trending recipe}
