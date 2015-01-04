@@ -22,11 +22,10 @@ end
 ```
 
 ## Usage
-```
-You: Lita recipe
 
-Lita: [http://food2fork.com/view/bbec0d](http://food2fork.com/view/bbec0d)
-```
+  You: Lita recipe
+
+  Lita: [http://food2fork.com/view/bbec0d](http://food2fork.com/view/bbec0d)
 
 ## License
 
