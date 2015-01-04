@@ -25,7 +25,7 @@ end
 ```
 You: Lita recipe
 
-Lita: http://food2fork.com/view/bbec0d
+Lita: [http://food2fork.com/view/bbec0d](http://food2fork.com/view/bbec0d)
 ```
 
 ## License
