@@ -17,7 +17,7 @@ module Lita
       private
 
       def api_key
-        Lita.config.handlers.recipe.api_key
+        Lita.config.api_key
       end
  
       Lita.register_handler(Recipe)
