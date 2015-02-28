@@ -1,6 +1,6 @@
 # lita-recipe
 
-A bot that will reply with a link to a random trending recipe on Food2Fork.
+A Lita handler that will reply with a link to a random trending recipe on Food2Fork.
 
 ## Installation
 
